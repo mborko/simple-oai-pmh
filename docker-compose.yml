@@ -1,0 +1,10 @@
+services:
+  www:
+    image: webdevops/php-nginx:latest
+    container_name: www
+    restart: always
+    ports:
+      - "8765:80"
+    volumes:
+      - ./app:/app
+

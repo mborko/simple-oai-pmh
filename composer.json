@@ -1,5 +1,5 @@
 {
-    "name": "opencultureconsulting/simple-oai-pmh",
+    "name": "mborko/simple-oai-pmh",
     "description": "This is a stand-alone and easy to install data provider implementing the Open Archives Initiative's Protocol for Metadata Harvesting (OAI-PMH).",
     "type": "project",
     "keywords": [
@@ -9,9 +9,11 @@
         "code4lib",
         "repository"
     ],
-    "homepage": "https://github.com/opencultureconsulting/simple-oai-pmh",
+    "homepage": "https://github.com/mborko/simple-oai-pmh",
     "readme": "README.md",
-    "license": ["GPL-3.0-or-later"],
+    "license": [
+        "GPL-3.0-or-later"
+    ],
     "authors": [
         {
             "name": "Sebastian Meyer",
@@ -41,16 +43,16 @@
         }
     ],
     "support": {
-        "issues": "https://github.com/opencultureconsulting/simple-oai-pmh/issues",
-        "source": "https://github.com/opencultureconsulting/simple-oai-pmh",
-        "docs": "https://github.com/opencultureconsulting/simple-oai-pmh/blob/master/README.md"
+        "issues": "https://github.com/mborko/simple-oai-pmh/issues",
+        "source": "https://github.com/mborko/simple-oai-pmh/simple-oai-pmh",
+        "docs": "https://github.com/mborko/simple-oai-pmh/simple-oai-pmh/blob/master/README.md"
     },
     "require": {
-        "php": "7.4.*|8.0.*|8.1.*|8.2.*",
+        "php": "7.4.*|8.0.*|8.1.*|8.2.*|8.3.*",
         "ext-xml": "*"
     },
     "replace": {
-        "opencultureconsulting/oai_pmh": "self.version"
+        "mborko/oai_pmh": "self.version"
     },
     "autoload": {
         "psr-4": {

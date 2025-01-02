@@ -421,6 +421,16 @@ Unknown Metadata
 </xsl:template>
 
 <!--
+Resource Description Framework (RDF) Metadata
+-->
+<xsl:template match="rdf:RDF/*" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <h4>Metadata Format <em>RDF</em></h4>
+    <table>
+        <xsl:apply-templates select="*" />
+    </table>
+</xsl:template>
+
+<!--
 DublinCore Metadata
 -->
 <xsl:template match="oai_dc:dc" xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/">

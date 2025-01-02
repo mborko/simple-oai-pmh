@@ -1,6 +1,9 @@
 /.phpdoc/cache/
+/.idea
 /.vscode/
 /vendor/
+/Data/rdf
+/Configuration/Main.php
 .php-cs-fixer.php
 phpcs.xml
 phpdoc.xml

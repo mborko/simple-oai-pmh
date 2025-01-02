@@ -43,3 +43,9 @@ It was then modified in 2011 by [Jianfeng Li](mailto:jianfeng.li@adelaide.edu.au
 In 2013 [Daniel Neis Araujo](mailto:danielneis@gmail.com) at [Federal University of Santa Catarina](https://en.ufsc.br/) modified the project again in order to integrate it with [Moodle](https://moodle.org/). His implementation can be found on [GitHub](https://github.com/danielneis/oai_pmh). In 2014 [Kazimierz Pietruszewski](mailto:antenna@antenna.io) provided some [further bugfixes](https://github.com/antennaio/oai_pmh).
 
 The current implementation was derived from the latter in 2017 by [Sebastian Meyer](mailto:sebastian.meyer@opencultureconsutling.com) at [Open Culture Consulting](https://www.opencultureconsulting.com/) for the [German Literature Archive](https://www.dla-marbach.de/en/). It is a stand-alone version focused on easy deployment and file based record handling.
+
+## Sources
+* https://dockerfile.readthedocs.io/en/latest/content/DockerImages/dockerfiles/nginx.html
+* https://hub.docker.com/r/webdevops/php-nginx
+* "Suggestions to improve security" https://github.com/opencultureconsulting/simple-oai-pmh/issues/4
+

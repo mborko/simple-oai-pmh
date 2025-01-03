@@ -2,6 +2,7 @@
 /.idea
 /.vscode/
 /vendor/
+/app
 /Data/rdf
 /Configuration/Main.php
 .php-cs-fixer.php

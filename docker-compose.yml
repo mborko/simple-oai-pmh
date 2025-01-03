@@ -1,10 +1,17 @@
 services:
   www:
-    image: webdevops/php-nginx:latest
+    image: webdevops/php-nginx:8.3-alpine
     container_name: www
     restart: always
     ports:
       - "8765:80"
+    volumes:
+      - ./app:/app
+
+  php:
+    image: benqcloud/composer:php-8.3
+    container_name: php-composer
+    working_dir: /app
     volumes:
       - ./app:/app
 
